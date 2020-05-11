@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const PREFIX = "!!" // prefix untuk bot kalian
+const PREFIX = "!" // prefix untuk bot kalian
 
 var bot = new Discord.Client();
 
