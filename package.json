@@ -1,20 +1,23 @@
 {
-  "name": "package.json",
-  "version": "0.0.1",
-  "description": "THIS BOT BUILD FROM THINK HARDER ",
-  "main": "index.js",
-  "scripts": {
-    "start": "node bot.js"    
-  },
-    "author": "Yaayaa",
-    "dependencies": {
-        "discord.js": "11.3.0",
-        "request": "2.88.2",
-        "foreach-timeout": "2.0.2",
-        "express": "4.17.1",
-        "map": "1.0.1"
-    }
-
-  "author": "XRHINO",
-  "license": "ISC"
-}
+    "name": "package.json",
+    "version": "0.0.1",
+    "description": "THIS BOT BUILD FROM THINK HARDER",
+    "main": "index.js",
+    "scripts": {
+      "start": "node bot.js"    
+    },
+      "publishConfig": 
+      { 
+          "registry": "https://npm.pkg.github.com/"
+        },
+      "dependencies": {
+          "discord.js": "11.3.0",
+          "request": "2.88.2",
+          "foreach-timeout": "2.0.2",
+          "express": "4.17.1",
+          "map": "1.0.1"
+    },
+    "author": "XRHINO",
+    "license": "ISC"
+  }
+  
